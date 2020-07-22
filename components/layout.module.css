@@ -1,0 +1,32 @@
+.container {
+  /* max-width: 36rem; */
+  /* padding: 0 1rem; */
+  /* margin: 3rem auto 6rem; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #fffb54;
+  height: calc(10vh - 10px);
+}
+
+.headerImage {
+  width: 6rem;
+  height: 6rem;
+}
+
+.headerHomeImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.headerAvatarImage {
+  width: 3rem;
+  height: 3rem;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
