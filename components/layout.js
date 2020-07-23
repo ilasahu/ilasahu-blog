@@ -24,50 +24,75 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header className={`${styles.header} `}>
         <>
-          <img
-            src="/images/avatar.png"
-            className={`${styles.headerAvatarImage}`}
-            alt={name}
-          />
+          <div className={`${styles.column}  ${styles.pl3} `}>
+            <img
+              src="/images/avatar.png"
+              className={styles.headerAvatarImage}
+              alt={name}
+            />
+          </div>
+          <div className={`${styles.column} ${styles.pl1}`}>
+            <p className={styles.headerName}>{name}</p>
+          </div>
+          <div className={`${styles.floatRight} ${styles.pr15}`}>
+            <div className={`${styles.column} ${styles.px2}`}>
+              <p className={styles.headerMenu}>Home</p>
+            </div>
+            <div className={`${styles.column} ${styles.px2}`}>
+              <p className={styles.headerMenu}>About</p>
+            </div>
+            <div className={`${styles.column} ${styles.px2}`}>
+              <p className={styles.headerMenu}>Work</p>
+            </div>
+            <div className={`${styles.column} ${styles.px2}`}>
+              <p className={styles.headerMenu}>Gallery</p>
+            </div>
+            <div className={`${styles.column} ${styles.px2}`}>
+              <p className={styles.headerMenu}>Contact</p>
+            </div>
+          </div>
         </>
       </header>
-      <main>{children}</main>
-      {home ? (
-        <>
-          <img
-            src="/images/ila.png"
-            className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-            alt={name}
-          />
-          <h1 className={utilStyles.heading2Xl}>{name}</h1>
-        </>
-      ) : (
-        <>
-          <Link href="/">
-            <a>
-              <img
-                src="/images/profile.jpg"
-                className={`${styles.headerImage} ${utilStyles.borderCircle}`}
-                alt={name}
-              />
-            </a>
-          </Link>
-          <h2 className={utilStyles.headingLg}>
+      <>{/* <div className={`${styles.firstFold}  ${styles.pl3} `}></div> */}</>
+      <div className={styles.firstFold}>
+        {home ? (
+          <>
+            <img
+              src="/images/ila.png"
+              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              alt={name}
+            />
+            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+          </>
+        ) : (
+          <>
             <Link href="/">
-              <a className={utilStyles.colorInherit}>{name}</a>
+              <a>
+                <img
+                  src="/images/profile.jpg"
+                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                  alt={name}
+                />
+              </a>
             </Link>
-          </h2>
-        </>
-      )}
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/">
+                <a className={utilStyles.colorInherit}>{name}</a>
+              </Link>
+            </h2>
+          </>
+        )}
+        {!home && (
+          <div className={styles.backToHome}>
+            <Link href="/">
+              <a>← Back to home</a>
+            </Link>
+          </div>
+        )}
+      </div>
+      <main>{children}</main>
     </div>
   );
 }
