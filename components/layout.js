@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
           <div className={`${styles.column} ${styles.pl1}`}>
             <p className={styles.headerName}>{name}</p>
           </div>
-          <div className={`${styles.floatRight} ${styles.pr15}`}>
+          <nav className={`${styles.floatRight} ${styles.pr15}`}>
             <div className={`${styles.column} ${styles.px2}`}>
               <p className={styles.headerMenu}>Home</p>
             </div>
@@ -52,10 +52,10 @@ export default function Layout({ children, home }) {
             <div className={`${styles.column} ${styles.px2}`}>
               <p className={styles.headerMenu}>Contact</p>
             </div>
-          </div>
+          </nav>
         </>
       </header>
-      <>{/* <div className={`${styles.firstFold}  ${styles.pl3} `}></div> */}</>
+
       <div className={styles.firstFold}>
         {home ? (
           <>
