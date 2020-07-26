@@ -1,4 +1,7 @@
 .container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0 30px;
 }
 
 .header {
@@ -10,11 +13,21 @@
   width: 100%;
 }
 
+.row {
+  display: flex;
+}
+
 .firstFold {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #f1f1e3;
-  position: -webkit-sticky;
-  top: 0;
+
+  /* top: 0; */
+  height: 200px;
+  width: 100%;
+}
+
+.secondFold {
+  height: 150px;
   width: 100%;
 }
 
@@ -24,8 +37,12 @@
 }
 
 .headerHomeImage {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
+}
+.aboutHomeImage {
+  width: 18rem;
+  /* height: 10rem; */
 }
 
 .headerName {
@@ -35,9 +52,9 @@
   font-weight: 600;
 }
 
-.column {
-  float: left;
-}
+/* .column {
+  float: left; */
+/* } */
 
 .headerAvatarImage {
   width: 3rem;
@@ -58,6 +75,9 @@
 .pr15 {
   padding-right: 150px;
 }
+.pt3 {
+  padding-top: 30px;
+}
 
 .px2 {
   padding-left: 20px;
@@ -65,4 +85,61 @@
 }
 .floatRight {
   float: right;
+}
+.positionAbsolute {
+  position: absolute;
+}
+
+.width30 {
+  width: 30%;
+}
+.width70 {
+  width: 70%;
+}
+
+.width40 {
+  width: 40%;
+}
+.width60 {
+  width: 60%;
+}
+.width20 {
+  width: 20%;
+}
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.lineHeight0 {
+  line-height: 0px;
+}
+.desc {
+  font-size: initial;
+}
+.col {
+  grid-row: 1;
+}
+.marginLeftAuto {
+  margin-left: auto;
+}
+
+.alignItemCenter {
+  align-items: center;
+}
+
+.marginUnset {
+  margin: unset;
+}
+.margint7 {
+  margin-top: 70px;
+}
+.margintn7 {
+  margin-top: -70px;
 }
