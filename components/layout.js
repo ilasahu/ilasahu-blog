@@ -39,7 +39,7 @@ export default function Layout({ children, home }) {
             </div>
           </div>
           <nav
-            className={`${styles.row} ${styles.marginLeftAuto} ${styles.pr15} `}
+            className={`${styles.row} ${styles.marginLeftAuto} ${styles.pr15} ${styles.webNav}`}
           >
             <div className={` ${styles.px2}`}>
               <p className={styles.headerMenu}>Home</p>
@@ -57,10 +57,47 @@ export default function Layout({ children, home }) {
               <p className={styles.headerMenu}>Contact</p>
             </div>
           </nav>
+
+          <div className={` ${styles.marginLeftAuto}`}>
+            <div className={` ${styles.px2}`}>
+              <p className={styles.headerMenu}>
+                <a href="#" onClick={openMobileNav}>
+                  Logo
+                </a>
+              </p>
+            </div>
+
+            <nav id="mobileNav" style={{ display: "none" }}>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Home</p>
+              </div>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>About</p>
+              </div>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Work</p>
+              </div>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Gallery</p>
+              </div>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Contact</p>
+              </div>
+            </nav>
+          </div>
         </>
       </header>
 
       <main>{children}</main>
     </div>
   );
+}
+
+function openMobileNav() {
+  var nav = document.getElementById("mobileNav").style.display;
+  if (nav == "none") {
+    document.getElementById("mobileNav").style.display = "block";
+  } else {
+    document.getElementById("mobileNav").style.display = "none";
+  }
 }

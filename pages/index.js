@@ -55,6 +55,15 @@ export default function Home() {
             />
           </>
         </div>
+        {/* <div className={`${styles.margint7}  ${styles.secondFold}`}>
+          <>
+            <img
+              src="/images/about.png"
+              className={`${styles.aboutHomeImage}  `}
+              alt={name}
+            />
+          </>
+        </div> */}
       </section>
     </Layout>
   );

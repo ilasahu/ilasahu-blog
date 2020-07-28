@@ -18,10 +18,7 @@
 }
 
 .firstFold {
-  /* overflow: hidden; */
   background-color: #f1f1e3;
-
-  /* top: 0; */
   height: 200px;
   width: 100%;
 }
@@ -142,4 +139,47 @@
 }
 .margintn7 {
   margin-top: -70px;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  /* width: 100%; */
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.displayNone {
+  display: "none" !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .mobileNav {
+    display: block;
+    color: "black";
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .mobileNav {
+    display: none;
+    color: "black";
+  } /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .webNav {
+    display: none;
+    color: "black";
+  } /* show it on small screens */
+}
+
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .webNav {
+    display: "";
+    color: "black";
+  } /* hide it elsewhere */
 }
