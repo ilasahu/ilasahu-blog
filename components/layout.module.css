@@ -23,6 +23,12 @@
   width: 100%;
 }
 
+.thirdFold {
+  background-color: #f1f1e3;
+  height: 950px;
+  width: 100%;
+}
+
 .secondFold {
   height: 150px;
   width: 100%;
@@ -39,6 +45,16 @@
 .aboutHomeImage {
   width: 18rem;
   /* height: 10rem; */
+}
+
+.creationImage {
+  width: 25rem;
+  height: 12rem;
+}
+
+.galleryImage {
+  width: 13rem;
+  height: 15rem;
 }
 
 .headerName {
@@ -74,6 +90,17 @@
 .pt3 {
   padding-top: 30px;
 }
+.pt2 {
+  padding-top: 20px;
+}
+
+.pt3r {
+  padding-top: 3rem;
+}
+
+.padt2 {
+  padding-top: 2px;
+}
 
 .px2 {
   padding-left: 20px;
@@ -101,6 +128,17 @@
 }
 .width20 {
   width: 20%;
+}
+.width25 {
+  width: 25%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.width100 {
+  width: 100%;
 }
 .textCenter {
   text-align: center;
@@ -188,4 +226,9 @@
 
 .colorBlack {
   color: black !important;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }

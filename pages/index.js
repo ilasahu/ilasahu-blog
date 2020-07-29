@@ -55,15 +55,93 @@ export default function Home() {
             />
           </>
         </div>
-        {/* <div className={`${styles.margint7}  ${styles.secondFold}`}>
+        <div className={` ${styles.thirdFold}`}>
           <>
-            <img
-              src="/images/about.png"
-              className={`${styles.aboutHomeImage}  `}
-              alt={name}
-            />
+            <div className={`${styles.container} ${styles.padt2}`}>
+              <h2 className={styles.textCenter}>My Creations</h2>
+              <div
+                className={`${styles.row} ${styles.alignItemCenter} ${styles.pt2} `}
+              >
+                <div className={`${styles.width50} `}>
+                  <img
+                    src="/images/builderx.png"
+                    className={`${styles.creationImage}  ${styles.center} `}
+                    alt={name}
+                  />
+                </div>
+                <div className={`${styles.width50}`}>
+                  <p className={styles.textCenter}>BuilderX</p>
+                </div>
+              </div>
+
+              <div
+                className={`${styles.row} ${styles.alignItemCenter} ${styles.pt3r}`}
+              >
+                <div className={`${styles.width50}`}>
+                  <p className={styles.textCenter}>Nativebase Market</p>
+                </div>
+                <div className={`${styles.width50} `}>
+                  <img
+                    src="/images/nativebase-market.png"
+                    className={`${styles.creationImage}  ${styles.center} `}
+                    alt={name}
+                  />
+                </div>
+              </div>
+              <div
+                className={`${styles.row} ${styles.alignItemCenter} ${styles.pt3r}`}
+              >
+                <div className={`${styles.width50} `}>
+                  <img
+                    src="/images/flutter-market.png"
+                    className={`${styles.creationImage}  ${styles.center} `}
+                    alt={name}
+                  />
+                </div>
+                <div className={`${styles.width50}`}>
+                  <p className={styles.textCenter}>Flutter Market</p>
+                </div>
+              </div>
+            </div>
           </>
-        </div> */}
+        </div>
+        <div className={` ${styles.secondFold}`}>
+          <>
+            <div className={`${styles.container}`}>
+              <h2 className={styles.textCenter}>Gallery</h2>
+              <div className={styles.row}>
+                <div className={styles.width25}>
+                  <img
+                    src="/images/ila1.jpg"
+                    className={`${styles.galleryImage}  `}
+                    alt={name}
+                  />
+                </div>
+                <div className={styles.width25}>
+                  <img
+                    src="/images/ila2.jpg"
+                    className={`${styles.galleryImage}  `}
+                    alt={name}
+                  />
+                </div>
+                <div className={styles.width25}>
+                  <img
+                    src="/images/ila3.jpg"
+                    className={`${styles.galleryImage}  `}
+                    alt={name}
+                  />
+                </div>
+                <div className={styles.width25}>
+                  <img
+                    src="/images/ila4.jpg"
+                    className={`${styles.galleryImage}  `}
+                    alt={name}
+                  />
+                </div>
+              </div>
+            </div>
+          </>
+        </div>
       </section>
     </Layout>
   );
