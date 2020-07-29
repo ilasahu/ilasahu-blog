@@ -49,9 +49,11 @@
   width: 100%;
 }
 
-.forthFold {
-  height: 500px;
-  width: 100%;
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .forthFold {
+    height: 500px;
+    width: 100%;
+  }
 }
 
 .headerImage {
@@ -74,9 +76,18 @@
   }
 }
 
-.galleryImage {
-  width: 13rem;
-  height: 15rem;
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .galleryImage {
+    width: 13rem;
+    height: 15rem;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .galleryImage {
+    width: 13rem;
+    height: 6rem;
+  }
 }
 
 .headerName {
