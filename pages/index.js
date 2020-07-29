@@ -105,11 +105,11 @@ export default function Home() {
             </div>
           </>
         </div>
-        <div className={` ${styles.secondFold}`}>
+        <div className={` ${styles.forthFold}`}>
           <>
             <div className={`${styles.container}`}>
               <h2 className={styles.textCenter}>Gallery</h2>
-              <div className={styles.row}>
+              <div className={`${styles.row} ${styles.pt4}`}>
                 <div className={styles.width25}>
                   <img
                     src="/images/ila1.jpg"
@@ -137,6 +137,24 @@ export default function Home() {
                     className={`${styles.galleryImage}  `}
                     alt={name}
                   />
+                </div>
+              </div>
+            </div>
+          </>
+        </div>
+
+        <div className={styles.fifthFold}>
+          <>
+            <div className={`${styles.container} `}>
+              <h2 className={`${styles.textCenter} ${styles.pt4}`}>Contact</h2>
+              <div className={`${styles.row}  ${styles.width100}`}>
+                <div className={`  ${styles.marginLeftAuto} ${styles.width50}`}>
+                  <p>Twitter</p>
+                  <p>Instagram</p>
+                </div>
+                <div className={`    ${styles.marginRightAuto}  `}>
+                  <p>Github</p>
+                  <p>LinkedIn</p>
                 </div>
               </div>
             </div>

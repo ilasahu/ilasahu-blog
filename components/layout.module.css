@@ -29,8 +29,19 @@
   width: 100%;
 }
 
+.fifthFold {
+  background-color: #f1f1e3;
+  height: 300px;
+  width: 100%;
+}
+
 .secondFold {
   height: 150px;
+  width: 100%;
+}
+
+.forthFold {
+  height: 500px;
   width: 100%;
 }
 
@@ -89,6 +100,10 @@
 }
 .pt3 {
   padding-top: 30px;
+}
+
+.pt4 {
+  padding-top: 40px;
 }
 .pt2 {
   padding-top: 20px;
@@ -162,6 +177,10 @@
 }
 .marginLeftAuto {
   margin-left: auto;
+}
+
+.marginRightAuto {
+  margin-right: auto;
 }
 
 .alignItemCenter {
