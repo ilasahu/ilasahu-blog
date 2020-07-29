@@ -146,7 +146,7 @@ export default function Home() {
         <div className={styles.fifthFold}>
           <>
             <div className={`${styles.container} `}>
-              <h2 className={`${styles.textCenter} ${styles.pt4}`}>Contact</h2>
+              <h2 className={`${styles.textCenter} ${styles.pt3}`}>Contact</h2>
               <div className={`${styles.row}  ${styles.width100}`}>
                 <div className={`  ${styles.marginLeftAuto} ${styles.width50}`}>
                   <p>Twitter</p>
