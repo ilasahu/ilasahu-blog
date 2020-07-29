@@ -22,11 +22,20 @@
   height: 200px;
   width: 100%;
 }
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .thirdFold {
+    background-color: #f1f1e3;
+    height: 950px;
+    width: 100%;
+  }
+}
 
-.thirdFold {
-  background-color: #f1f1e3;
-  height: 950px;
-  width: 100%;
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .thirdFold {
+    background-color: #f1f1e3;
+    height: 550px;
+    width: 100%;
+  }
 }
 
 .fifthFold {
@@ -58,9 +67,11 @@
   /* height: 10rem; */
 }
 
-.creationImage {
-  width: 25rem;
-  height: 12rem;
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .creationImage {
+    width: 25rem;
+    height: 12rem;
+  }
 }
 
 .galleryImage {
