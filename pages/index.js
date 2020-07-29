@@ -148,7 +148,7 @@ export default function Home() {
             <div className={`${styles.container} `}>
               <h2 className={`${styles.textCenter} ${styles.pt3}`}>Contact</h2>
               <div className={`${styles.row}  ${styles.width100}`}>
-                <div className={`  ${styles.marginLeftAuto} ${styles.width50}`}>
+                <div className={`  ${styles.marginLeftAuto} ${styles.width25}`}>
                   <p>Twitter</p>
                   <p>Instagram</p>
                 </div>
