@@ -35,7 +35,6 @@
 
 .headerHomeImage {
   width: 10rem;
-  height: 10rem;
 }
 .aboutHomeImage {
   width: 18rem;
@@ -137,8 +136,11 @@
 .margint7 {
   margin-top: 70px;
 }
-.margintn7 {
-  margin-top: -70px;
+
+@media screen and (min-width: 768px) and (max-width: 2000px) {
+  .margintn7 {
+    margin-top: -70px;
+  }
 }
 
 .collapsible {
@@ -182,4 +184,8 @@
     display: "";
     color: "black";
   } /* hide it elsewhere */
+}
+
+.colorBlack {
+  color: black !important;
 }

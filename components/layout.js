@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const name = "Ila Sahu";
 export const siteTitle = "Next.js Sample Website";
@@ -58,11 +60,15 @@ export default function Layout({ children, home }) {
             </div>
           </nav>
 
-          <div className={` ${styles.marginLeftAuto}`}>
+          <div className={` ${styles.mobileNav} ${styles.marginLeftAuto}`}>
             <div className={` ${styles.px2}`}>
               <p className={styles.headerMenu}>
-                <a href="#" onClick={openMobileNav}>
-                  Logo
+                <a
+                  href="#"
+                  onClick={openMobileNav}
+                  className={`${styles.colorBlack}`}
+                >
+                  <FontAwesomeIcon icon={faBars} />
                 </a>
               </p>
             </div>
