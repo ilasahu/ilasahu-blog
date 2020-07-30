@@ -41,7 +41,7 @@ export default function Layout({ children, home }) {
             </div>
           </div>
           <nav
-            className={`${styles.row} ${styles.marginLeftAuto} ${styles.pr15} ${styles.webNav}`}
+            className={`${styles.row} ${styles.marginLeftAuto} ${styles.webNav}`}
           >
             <div className={` ${styles.px2}`}>
               <p className={styles.headerMenu}>Home</p>
