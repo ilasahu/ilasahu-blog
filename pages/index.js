@@ -60,17 +60,30 @@ export default function Home() {
             <div className={`${styles.container} ${styles.padt2}`}>
               <h2 className={styles.textCenter}>My Creations</h2>
               <div
-                className={`${styles.row} ${styles.alignItemCenter} ${styles.pt2} `}
+                className={`${styles.row} ${styles.BItemCenter} ${styles.pt2} `}
               >
                 <div className={`${styles.width50} `}>
                   <img
                     src="/images/builderx.png"
-                    className={`${styles.creationImage}  ${styles.center} `}
+                    className={`${styles.creationImage}  ${styles.center} ${styles.imgShadow}`}
                     alt={name}
                   />
                 </div>
                 <div className={`${styles.width50}`}>
-                  <p className={styles.textCenter}>BuilderX</p>
+                  <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
+                    BuilderX
+                  </h4>
+                  <div>
+                    <p className={styles.textCenter}>
+                      BuilderX is a browser based design tool that codes React
+                      Native & React for you
+                    </p>
+                  </div>
+                  <div className={styles.textCenter}>
+                    <a className={styles.tag}>Next.js</a>
+                    <a className={styles.tag}>Laravel</a>
+                    <a className={styles.tag}>MySQL</a>
+                  </div>
                 </div>
               </div>
 
@@ -78,12 +91,26 @@ export default function Home() {
                 className={`${styles.row} ${styles.alignItemCenter} ${styles.pt3r}`}
               >
                 <div className={`${styles.width50}`}>
-                  <p className={styles.textCenter}>Nativebase Market</p>
+                  <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
+                    Nativebase Market
+                  </h4>
+                  <div>
+                    <p className={styles.textCenter}>
+                      NativeBase Market is a e-commerce website for Themes &
+                      Templates
+                    </p>
+                  </div>
+                  <div className={styles.textCenter}>
+                    <a className={styles.tag}>Php</a>
+                    <a className={styles.tag}>Laravel</a>
+                    <a className={styles.tag}>Jquery</a>
+                    <a className={styles.tag}>MySQL</a>
+                  </div>
                 </div>
                 <div className={`${styles.width50} `}>
                   <img
                     src="/images/nativebase-market.png"
-                    className={`${styles.creationImage}  ${styles.center} `}
+                    className={`${styles.creationImage}  ${styles.center} ${styles.imgShadow} `}
                     alt={name}
                   />
                 </div>
@@ -94,12 +121,26 @@ export default function Home() {
                 <div className={`${styles.width50} `}>
                   <img
                     src="/images/flutter-market.png"
-                    className={`${styles.creationImage}  ${styles.center} `}
+                    className={`${styles.creationImage}  ${styles.center}  ${styles.imgShadow}`}
                     alt={name}
                   />
                 </div>
                 <div className={`${styles.width50}`}>
-                  <p className={styles.textCenter}>Flutter Market</p>
+                  <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
+                    Flutter Market
+                  </h4>
+                  <div>
+                    <p className={styles.textCenter}>
+                      Collection of responsive Flutter Templates & Starter Kits
+                      for iOS & Android.
+                    </p>
+                  </div>
+                  <div className={styles.textCenter}>
+                    <a className={styles.tag}>Php</a>
+                    <a className={styles.tag}>Laravel</a>
+                    <a className={styles.tag}>Jquery</a>
+                    <a className={styles.tag}>MySQL</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -107,9 +148,9 @@ export default function Home() {
         </div>
         <div className={` ${styles.forthFold}`}>
           <>
-            <div className={`${styles.container}`}>
+            <div className={`${styles.container} ${styles.padt2}`}>
               <h2 className={styles.textCenter}>Gallery</h2>
-              <div className={`${styles.row} ${styles.pt4}`}>
+              <div className={`${styles.row} `}>
                 <div className={styles.width25}>
                   <img
                     src="/images/ila1.jpg"
@@ -145,8 +186,8 @@ export default function Home() {
 
         <div className={styles.fifthFold}>
           <>
-            <div className={`${styles.container} `}>
-              <h2 className={`${styles.textCenter} ${styles.pt3}`}>Contact</h2>
+            <div className={`${styles.container} ${styles.padt2}`}>
+              <h2 className={`${styles.textCenter} `}>Contact</h2>
               <div className={`${styles.row}  ${styles.width100}`}>
                 <div
                   className={`  ${styles.marginLeftAuto} ${styles.contactWidth}`}
