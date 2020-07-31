@@ -2,6 +2,18 @@ import Head from "next/head";
 import Layout, { siteTitle } from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import styles from "../components/layout.module.css";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faTwitter,
+  faInstagram,
+  faGithub,
+  faLinkedin
+} from "@fortawesome/free-brands-svg-icons";
+
+// import {faTw}
+
 const name = "Ila Sahu";
 const space = " &nbsp";
 export default function Home() {
@@ -192,12 +204,24 @@ export default function Home() {
                 <div
                   className={`  ${styles.marginLeftAuto} ${styles.contactWidth}`}
                 >
-                  <p>Twitter</p>
-                  <p>Instagram</p>
+                  <p>
+                    <FontAwesomeIcon icon={faTwitter} />
+                    <span className={styles.pl1}>Twitter</span>
+                  </p>
+                  <p>
+                    <FontAwesomeIcon icon={faInstagram} />
+                    <span className={styles.pl1}>Instagram</span>
+                  </p>
                 </div>
                 <div className={`    ${styles.marginRightAuto}  `}>
-                  <p>Github</p>
-                  <p>LinkedIn</p>
+                  <p>
+                    <FontAwesomeIcon icon={faGithub} />
+                    <span className={styles.pl1}>Github</span>
+                  </p>
+                  <p>
+                    <FontAwesomeIcon icon={faLinkedin} />
+                    <span className={styles.pl1}>LinkedIn</span>
+                  </p>
                 </div>
               </div>
             </div>
