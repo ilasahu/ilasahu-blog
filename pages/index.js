@@ -85,7 +85,13 @@ export default function Home() {
                 </div>
                 <div className={`${styles.width50}`}>
                   <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
-                    BuilderX
+                    <a
+                      href="http://builderx.io/"
+                      target="_blank"
+                      className={styles.removeAStyle}
+                    >
+                      BuilderX
+                    </a>
                   </h4>
                   <div>
                     <p className={styles.textCenter}>
@@ -106,7 +112,13 @@ export default function Home() {
               >
                 <div className={`${styles.width50}`}>
                   <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
-                    Nativebase Market
+                    <a
+                      href="http://market.nativebase.io/"
+                      target="_blank"
+                      className={styles.removeAStyle}
+                    >
+                      Nativebase Market
+                    </a>
                   </h4>
                   <div>
                     <p className={styles.textCenter}>
@@ -145,7 +157,13 @@ export default function Home() {
                 </div>
                 <div className={`${styles.width50}`}>
                   <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
-                    Flutter Market
+                    <a
+                      href="http://fluttermarket.com/"
+                      target="_blank"
+                      className={styles.removeAStyle}
+                    >
+                      Flutter Market
+                    </a>
                   </h4>
                   <div>
                     <p className={styles.textCenter}>
