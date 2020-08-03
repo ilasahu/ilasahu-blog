@@ -301,3 +301,10 @@
 .imgShadow {
   box-shadow: 5px 10px 8px #888888;
 }
+
+.removeAStyle {
+  color: black;
+}
+.removeAStyle:hover {
+  text-decoration: none;
+}

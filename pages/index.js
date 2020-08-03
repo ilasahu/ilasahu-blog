@@ -206,21 +206,45 @@ export default function Home() {
                 >
                   <p>
                     <FontAwesomeIcon icon={faTwitter} />
-                    <span className={styles.pl1}>Twitter</span>
+                    <a
+                      className={styles.removeAStyle}
+                      target="_blank"
+                      href="https://twitter.com/ilasahu94"
+                    >
+                      <span className={styles.pl1}>Twitter</span>
+                    </a>
                   </p>
                   <p>
                     <FontAwesomeIcon icon={faInstagram} />
-                    <span className={styles.pl1}>Instagram</span>
+                    <a
+                      className={styles.removeAStyle}
+                      href="https://www.instagram.com/ilasahu"
+                      target="_blank"
+                    >
+                      <span className={styles.pl1}>Instagram</span>
+                    </a>
                   </p>
                 </div>
                 <div className={`    ${styles.marginRightAuto}  `}>
                   <p>
                     <FontAwesomeIcon icon={faGithub} />
-                    <span className={styles.pl1}>Github</span>
+                    <a
+                      className={styles.removeAStyle}
+                      href="https://github.com/ilasahu"
+                      target="_blank"
+                    >
+                      <span className={styles.pl1}>Github</span>
+                    </a>
                   </p>
                   <p>
                     <FontAwesomeIcon icon={faLinkedin} />
-                    <span className={styles.pl1}>LinkedIn</span>
+                    <a
+                      className={styles.removeAStyle}
+                      href="https://www.linkedin.com/in/ila-sahu-0575b9149/"
+                      target="_blank"
+                    >
+                      <span className={styles.pl1}>LinkedIn</span>
+                    </a>
                   </p>
                 </div>
               </div>

@@ -43,27 +43,27 @@ export default function Layout({ children, home }) {
           <nav
             className={`${styles.row} ${styles.marginLeftAuto} ${styles.webNav}`}
           >
-            <a href="#" className={styles.colorBlack}>
+            <a href="#" className={styles.removeAStyle}>
               <div className={` ${styles.px2}`}>
                 <p className={styles.headerMenu}>Home</p>
               </div>
             </a>
-            <a href="#about" className={styles.colorBlack}>
+            <a href="#about" className={styles.removeAStyle}>
               <div className={` ${styles.px2}`}>
                 <p className={styles.headerMenu}>About</p>
               </div>
             </a>
-            <a href="#work" className={styles.colorBlack}>
+            <a href="#work" className={styles.removeAStyle}>
               <div className={` ${styles.px2}`}>
                 <p className={styles.headerMenu}>Work</p>
               </div>
             </a>
-            <a href="#gallery" className={styles.colorBlack}>
+            <a href="#gallery" className={styles.removeAStyle}>
               <div className={` ${styles.px2}`}>
                 <p className={styles.headerMenu}>Gallery</p>
               </div>
             </a>
-            <a href="#contact" className={styles.colorBlack}>
+            <a href="#contact" className={styles.removeAStyle}>
               <div className={` ${styles.px2}`}>
                 <p className={styles.headerMenu}>Contact</p>
               </div>
