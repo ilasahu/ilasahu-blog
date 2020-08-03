@@ -43,21 +43,31 @@ export default function Layout({ children, home }) {
           <nav
             className={`${styles.row} ${styles.marginLeftAuto} ${styles.webNav}`}
           >
-            <div className={` ${styles.px2}`}>
-              <p className={styles.headerMenu}>Home</p>
-            </div>
-            <div className={` ${styles.px2}`}>
-              <p className={styles.headerMenu}>About</p>
-            </div>
-            <div className={` ${styles.px2}`}>
-              <p className={styles.headerMenu}>Work</p>
-            </div>
-            <div className={` ${styles.px2}`}>
-              <p className={styles.headerMenu}>Gallery</p>
-            </div>
-            <div className={` ${styles.px2}`}>
-              <p className={styles.headerMenu}>Contact</p>
-            </div>
+            <a href="#" className={styles.colorBlack}>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Home</p>
+              </div>
+            </a>
+            <a href="#about" className={styles.colorBlack}>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>About</p>
+              </div>
+            </a>
+            <a href="#work" className={styles.colorBlack}>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Work</p>
+              </div>
+            </a>
+            <a href="#gallery" className={styles.colorBlack}>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Gallery</p>
+              </div>
+            </a>
+            <a href="#contact" className={styles.colorBlack}>
+              <div className={` ${styles.px2}`}>
+                <p className={styles.headerMenu}>Contact</p>
+              </div>
+            </a>
           </nav>
 
           <div className={` ${styles.mobileNav} ${styles.marginLeftAuto}`}>

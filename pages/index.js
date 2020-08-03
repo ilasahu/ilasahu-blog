@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
 
       <section className={utilStyles.headingMd}>
-        <div className={styles.firstFold}>
+        <div className={styles.firstFold} id="home">
           <>
             <div
               className={`${styles.row} ${styles.container} ${styles.alignItemCenter}`}
@@ -45,7 +45,7 @@ export default function Home() {
             </div>
           </>
         </div>
-        <div className={`${styles.margint7}  ${styles.secondFold}`}>
+        <div className={`${styles.margint7}  ${styles.secondFold}`} id="about">
           <>
             <div className={`${styles.container}`}>
               <h2>About</h2>
@@ -67,7 +67,7 @@ export default function Home() {
             />
           </>
         </div>
-        <div className={` ${styles.thirdFold}`}>
+        <div className={` ${styles.thirdFold}`} id="work">
           <>
             <div className={`${styles.container} ${styles.padt2}`}>
               <h2 className={styles.textCenter}>My Creations</h2>
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
           </>
         </div>
-        <div className={` ${styles.forthFold}`}>
+        <div className={` ${styles.forthFold}`} id="gallery">
           <>
             <div className={`${styles.container} ${styles.padt2}`}>
               <h2 className={styles.textCenter}>Gallery</h2>
@@ -196,7 +196,7 @@ export default function Home() {
           </>
         </div>
 
-        <div className={styles.fifthFold}>
+        <div className={styles.fifthFold} id="contact">
           <>
             <div className={`${styles.container} ${styles.padt2}`}>
               <h2 className={`${styles.textCenter} `}>Contact</h2>
