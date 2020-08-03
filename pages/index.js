@@ -75,11 +75,13 @@ export default function Home() {
                 className={`${styles.row} ${styles.BItemCenter} ${styles.pt2} `}
               >
                 <div className={`${styles.width50} `}>
-                  <img
-                    src="/images/builderx.png"
-                    className={`${styles.creationImage}  ${styles.center} ${styles.imgShadow}`}
-                    alt={name}
-                  />
+                  <a href="http://builderx.io/" target="_blank">
+                    <img
+                      src="/images/builderx.png"
+                      className={`${styles.creationImage}  ${styles.center} ${styles.imgShadow}`}
+                      alt={name}
+                    />
+                  </a>
                 </div>
                 <div className={`${styles.width50}`}>
                   <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
@@ -120,22 +122,26 @@ export default function Home() {
                   </div>
                 </div>
                 <div className={`${styles.width50} `}>
-                  <img
-                    src="/images/nativebase-market.png"
-                    className={`${styles.creationImage}  ${styles.center} ${styles.imgShadow} `}
-                    alt={name}
-                  />
+                  <a href="https://market.nativebase.io/" target="_blank">
+                    <img
+                      src="/images/nativebase-market.png"
+                      className={`${styles.creationImage}  ${styles.center} ${styles.imgShadow} `}
+                      alt={name}
+                    />
+                  </a>
                 </div>
               </div>
               <div
                 className={`${styles.row} ${styles.alignItemCenter} ${styles.pt3r}`}
               >
                 <div className={`${styles.width50} `}>
-                  <img
-                    src="/images/flutter-market.png"
-                    className={`${styles.creationImage}  ${styles.center}  ${styles.imgShadow}`}
-                    alt={name}
-                  />
+                  <a href="http://fluttermarket.com/" target="_blank">
+                    <img
+                      src="/images/flutter-market.png"
+                      className={`${styles.creationImage}  ${styles.center}  ${styles.imgShadow}`}
+                      alt={name}
+                    />
+                  </a>
                 </div>
                 <div className={`${styles.width50}`}>
                   <h4 className={`${styles.textCenter} ${styles.marginUnset}`}>
