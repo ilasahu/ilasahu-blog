@@ -55,18 +55,15 @@ export default function Home() {
                 yoga and swimming. I love baking cakes and cookies. Pets are my
                 best friend.
               </p>
+              <img
+                src="/images/about.png"
+                className={`${styles.aboutHomeImage}  `}
+                alt={name}
+              />
             </div>
           </>
         </div>
-        <div>
-          <>
-            <img
-              src="/images/about.png"
-              className={`${styles.aboutHomeImage}  `}
-              alt={name}
-            />
-          </>
-        </div>
+        <div></div>
         <div className={` ${styles.thirdFold}`} id="work">
           <>
             <div className={`${styles.container} ${styles.padt2}`}>
