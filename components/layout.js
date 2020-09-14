@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const name = "Ila Sahu";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Ila Sahu";
 
 export default function Layout({ children, home }) {
   return (
