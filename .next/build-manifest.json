@@ -1,8 +1,8 @@
 {
   "devFiles": [],
   "lowPriorityFiles": [
-    "static/gituqZkjUYca3yBuO7uBq/_buildManifest.js",
-    "static/gituqZkjUYca3yBuO7uBq/_ssgManifest.js"
+    "static/3P73WGfWKqqaR_Z_GKNOg/_buildManifest.js",
+    "static/3P73WGfWKqqaR_Z_GKNOg/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -11,7 +11,7 @@
       "static/chunks/a9a7754c.28ea65b5f687917f41c6.js",
       "static/chunks/cb1608f2.918565a2f0315c27a090.js",
       "static/chunks/commons.87c496b86218070733b5.js",
-      "static/chunks/baa1a208966efb1b659cfbfcb35cddd4ea839f2c.8c3017d9eba6ce9516f0.js",
+      "static/chunks/9fa240299977996ba0acb1935586e27489133b2d.8c3017d9eba6ce9516f0.js",
       "static/css/f8dbcbcc69687c2bc319.css",
       "static/runtime/main-7c56be8e608e1ca5613a.js"
     ],
@@ -19,7 +19,7 @@
       "static/runtime/webpack-91b117697e716c22a78b.js",
       "static/chunks/framework.61be3d4a7cddc2283fc7.js",
       "static/chunks/commons.87c496b86218070733b5.js",
-      "static/chunks/baa1a208966efb1b659cfbfcb35cddd4ea839f2c.8c3017d9eba6ce9516f0.js",
+      "static/chunks/9fa240299977996ba0acb1935586e27489133b2d.8c3017d9eba6ce9516f0.js",
       "static/css/28c01961f69e01be5c4a.css",
       "static/runtime/main-7c56be8e608e1ca5613a.js"
     ],
@@ -38,7 +38,7 @@
       "static/chunks/a9a7754c.28ea65b5f687917f41c6.js",
       "static/chunks/cb1608f2.918565a2f0315c27a090.js",
       "static/chunks/commons.87c496b86218070733b5.js",
-      "static/chunks/baa1a208966efb1b659cfbfcb35cddd4ea839f2c.8c3017d9eba6ce9516f0.js",
+      "static/chunks/9fa240299977996ba0acb1935586e27489133b2d.8c3017d9eba6ce9516f0.js",
       "static/css/f8dbcbcc69687c2bc319.css",
       "static/runtime/main-7c56be8e608e1ca5613a.js"
     ]
