@@ -150,7 +150,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const name = "Ila Sahu";
-const siteTitle = "Next.js Sample Website";
+const siteTitle = "Ila Sahu - Personal blog";
 function Layout({
   children,
   home
@@ -450,45 +450,47 @@ function Layout({
       lineNumber: 86,
       columnNumber: 13
     }
-  }, __jsx("div", {
-    className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
+  }, __jsx("a", {
+    href: "#",
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.removeAStyle,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87,
       columnNumber: 15
     }
-  }, __jsx("p", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
+  }, __jsx("div", {
+    className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88,
       columnNumber: 17
     }
-  }, "Home")), __jsx("div", {
-    className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90,
-      columnNumber: 15
-    }
   }, __jsx("p", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 17
+      lineNumber: 89,
+      columnNumber: 19
     }
-  }, "About")), __jsx("div", {
+  }, "Home"))), __jsx("a", {
+    href: "#about",
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.removeAStyle,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
     className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93,
-      columnNumber: 15
+      columnNumber: 17
     }
   }, __jsx("p", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
@@ -496,45 +498,88 @@ function Layout({
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94,
-      columnNumber: 17
+      columnNumber: 19
     }
-  }, "Work")), __jsx("div", {
-    className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 15
-    }
-  }, __jsx("p", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
+  }, "About"))), __jsx("a", {
+    href: "#work",
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.removeAStyle,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97,
-      columnNumber: 17
+      columnNumber: 15
     }
-  }, "Gallery")), __jsx("div", {
+  }, __jsx("div", {
     className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 15
+      lineNumber: 98,
+      columnNumber: 17
     }
   }, __jsx("p", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 99,
+      columnNumber: 19
+    }
+  }, "Work"))), __jsx("a", {
+    href: "#gallery",
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.removeAStyle,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103,
       columnNumber: 17
     }
-  }, "Contact")))))), __jsx("main", {
+  }, __jsx("p", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104,
+      columnNumber: 19
+    }
+  }, "Gallery"))), __jsx("a", {
+    href: "#contact",
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.removeAStyle,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 107,
+      columnNumber: 15
+    }
+  }, __jsx("div", {
+    className: ` ${_layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.px2}`,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108,
+      columnNumber: 17
+    }
+  }, __jsx("p", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.headerMenu,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109,
+      columnNumber: 19
+    }
+  }, "Contact"))))))), __jsx("main", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
       columnNumber: 7
     }
   }, children));
